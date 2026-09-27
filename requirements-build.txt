@@ -1,0 +1,2 @@
+# Optional dependency for building a Windows executable from the included spec.
+pyinstaller>=6.0,<7.0

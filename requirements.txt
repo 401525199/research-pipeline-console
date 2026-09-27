@@ -1,0 +1,4 @@
+# Optional dependencies for enhanced local data profiling.
+# The Tkinter desktop application itself uses the Python standard library.
+pandas>=2.2,<3.0
+openpyxl>=3.1,<4.0
