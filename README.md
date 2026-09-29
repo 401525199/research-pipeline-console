@@ -4,6 +4,17 @@
 
 **中文：** 一款 Windows 桌面工具，用于浏览本地研究项目目录、管理文件夹级研究工作并查看所选数据文件。基于 Python 和 Tkinter 构建。
 
+## Quick start / 快速开始
+
+**Windows x64 portable ZIP / Windows x64 便携版：** [Download v1.0.1 / 下载 v1.0.1](https://github.com/401525199/research-pipeline-console/releases/download/v1.0.1/ResearchPipelineConsole-v1.0.1-windows-x64.zip) · [Release notes / 发布说明](https://github.com/401525199/research-pipeline-console/releases/tag/v1.0.1)
+
+1. **Extract / 解压：** Extract the ZIP to a folder where you can save files. / 将 ZIP 解压到有写入权限的文件夹。
+2. **Launch / 启动：** Run `ResearchPipelineConsole.exe`. / 运行 `ResearchPipelineConsole.exe`。
+3. **Choose folders / 选择目录：** Add your local research root folders in the sidebar and save the configuration. Each immediate child folder appears as a project. / 在侧边栏添加本机研究根目录并保存；每个根目录的直接子文件夹会显示为项目。
+4. **Explore / 浏览：** Scan the roots, open a project canvas, review file notes, and select a supported data file for a read-only profile. / 扫描目录、打开项目画布、查看文件说明，并选择支持格式的数据文件生成只读画像。
+
+The portable app can browse folders and run basic scans without a separate Python installation. Enhanced data profiling needs an available Python 3.10+ environment with the optional packages in `requirements.txt`. Source installation instructions are under [Requirements](#requirements) and [Run](#run). / 便携版的目录浏览和基础扫描无需另装 Python；增强数据画像需要本机 Python 3.10 或更高版本及 `requirements.txt` 中的可选依赖。源码安装步骤见下方 [Requirements](#requirements) 和 [Run](#run)。
+
 ## Screenshots / 软件截图
 
 The screenshots use a fictional project and synthetic observations. / 以下截图使用虚构项目和合成示例数据。
